@@ -171,6 +171,12 @@ footer a {
     line-height: 44px;
     display: flex;
   }
+  .title_complete {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
   .btn-primary {
     align-self: center;
     width: 80%;
@@ -198,8 +204,12 @@ footer a {
     padding: 8px 8px;
   }
   .hero-img {
-    width: 95;
+    display: flex;
     align-self: center;
+  }
+  .hero-img img {
+    max-width: 624px;
+    width: 95%;
   }
 
   .hero-text__title {
@@ -211,7 +221,8 @@ footer a {
     font-size: 15px;
     line-height: 28px;
     text-align: start;
-    max-width: 400px;
+    max-width: 660px;
+    align-self: center;
   }
   /*          SERVICES SECTION      */
   #services-container {
@@ -246,7 +257,7 @@ footer a {
     padding: 0;
   }
   #location-container .location {
-    padding: 46px 42px 0;
+    padding: 46px 12px 0;
   }
   #location-container address {
     display: flex;
